@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background: rgb(242, 248, 244);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    background: rgb(211, 214, 212);
+   
+}
+ul li{
+    padding: 20px;
+    cursor: pointer;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul li:hover{
+    background: rgb(111, 241, 181);
+}
+.photo{
+    display: flex;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.h2{
+    margin-top: 100px;
+}
+.p1{
+    width: 200px;
+    height: 600px;
+    margin: 100px;
+  
+    
+}
+.imgabout{
+   width: 400px;
+   height: 600px;
+   padding: 20px;
+   background: url(https://s2.best-wallpaper.net/wallpaper/iphone/1804/Blonde-girl-cap-back-view_iphone_320x480.jpg);
+   background-size: cover;
+}

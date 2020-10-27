@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://www.eturbonews.com/wp-content/uploads/2018/09/travel-the-world.jpg);
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    background: rgb(211, 214, 212);
+   
+}
+ul li{
+    padding: 20px;
+    cursor: pointer;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul li:hover{
+    background: rgb(111, 241, 181);
+}
+.phors{
+    text-align: center;
+    margin: 150px;
+    line-height: 20px;
+
+}
+.phors h1{
+    color: rgb(9, 139, 37);
+    font-size: 50px;
+    letter-spacing: 13px;
+}
+.start{
+    width: 100px;
+    background: rgb(0, 81, 255);
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
